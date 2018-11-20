@@ -1,0 +1,97 @@
+//1.用户登录信息
+.usermsg{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 50px;
+  //width: 20%;
+  //background: #a7ff60;
+  //1.1用户头像
+  .user{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 50px;
+    //background: blanchedalmond;
+    cursor: pointer;
+
+
+    img{
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+
+    }
+    .box{
+      display: none;
+      width: auto;
+      height: auto;
+    }
+
+
+  }
+  //1.2语言
+  .language{
+    position: relative;
+    width: 80px;
+    height: 50px;
+    background: #252a2f;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    .english{
+      z-index: 999;
+      display: none;
+      position: absolute;
+      right: 0;
+      top: 50px;
+      width: 100px;
+      height: 50px;
+      background: #252a2f;
+      color: #fff;
+      font-size: 14px;
+      padding-left: 15px;
+      text-align: left;
+      line-height: 50px;
+    }
+
+
+  }
+  //1.3购物车
+  .shopping-cart{
+    position: relative;
+    width: 40px;
+    height: 50px;
+    background: #252a2f;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    span{
+      position: absolute;
+      right: 0;
+      top: 3px;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: red;
+      font-size: 12px;
+      color: #fff;
+      text-align: center;
+      line-height: 20px;
+
+    }
+
+
+  }
+  //共同拥有的
+  .hoverbc{
+    background: #171a1d;
+  }
+}

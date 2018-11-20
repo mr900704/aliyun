@@ -1,0 +1,27 @@
+//下来隐藏列表
+.dropmenvn{
+  display: flex;
+  flex-wrap: wrap;
+  //border: 1px saddlebrown solid;
+  padding: 15px;
+  background: #252a2f;
+  box-sizing: padding-box;
+  z-index: 999;
+  &>div{
+    width: auto;
+    height: auto;
+    &>p{
+      width: 120px;
+      height: 30px;
+      color: #fff;
+      font-size: 14px;
+      text-align: left;
+      line-height: 30px;
+    }
+    &>p:hover{
+      color: #00c1de;
+      //background: red;
+    }
+  }
+
+}

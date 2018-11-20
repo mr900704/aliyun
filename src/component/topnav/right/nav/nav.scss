@@ -1,0 +1,47 @@
+//导航
+.nav{
+  display: flex;
+  flex-direction: row-reverse;
+  //width: 40%;
+  height: 50px;
+  //background: yellow;
+  line-height: 50px;
+  text-align: center;
+  &>a{
+    position: relative;
+    padding: 0 10px;
+    //background: #23ff42;
+    font-size: 14px;
+    color: #fff;
+    span{
+
+      position: absolute;
+      right: 0;
+      top: 3px;
+      display: inline-block;
+      display: none;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      //background: red;
+      font-size: 12px;
+      color: #fff;
+      text-align: center;
+      line-height: 20px;
+
+    }
+    .menvbox{
+      position: absolute;
+      right: 0;
+      top: 50px;
+      display: none;
+      width: auto;
+      height: auto;
+      z-index:999;
+    }
+
+  }
+  &>a:hover{
+    background: #171a1d;
+  }
+}

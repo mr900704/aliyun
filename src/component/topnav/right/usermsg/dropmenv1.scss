@@ -1,0 +1,96 @@
+//1.1.1下拉菜单
+.dropmenv1{
+  //display: none;
+  //visibility: hidden;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  width: 280px;
+  //height: 330px;
+  background: #252a2f;
+  z-index: 999;
+  //1.1.1.1用户名
+  .username{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    //background: red;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bolder;
+
+    img{
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      margin:0 10px;
+
+    }
+  }
+  //1.1.1.2设置资料
+  .set-data{
+    display: flex;
+    justify-content: flex-start;
+    height: 45px;
+    //background: olive;
+    line-height: 45px;
+    border-bottom: 1px solid #525252;
+    &>a{
+      display: block;
+      position: relative;
+      flex: 1;
+      font-size: 14px;
+      font-weight: bolder;
+      color: #bdbdbd;
+      text-align: center;
+
+    }
+
+    .basics:after, .authentication:after{
+      position: absolute;
+      right: 0;
+      top: 12px;
+      content: "";
+      display: block;
+      width: 1px;
+      height: 20px;
+      background: #525252;
+    }
+  }
+
+  //1.1.1.3安全管控
+  .security-control{
+    display: flex;
+    flex-direction: column;
+    height: 210px;
+    //background: pink;
+    border-bottom: 1px solid #525252;
+    &>a{
+      display: inline-block;
+      font-size: 14px;
+      color: #fff;
+      margin-top:15px ;
+      cursor: pointer;
+      //background: #23ff42;
+
+      span{
+        font-size: 14px;
+        color: #fff;
+        margin:12px;
+
+
+      }
+
+    }
+    &>a:hover{
+      color: cornflowerblue;
+    }
+  }
+  //1.1.1.4退出
+  .esc{
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+  }
+}

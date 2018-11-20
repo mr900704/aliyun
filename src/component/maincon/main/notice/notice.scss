@@ -1,0 +1,27 @@
+//1公告
+.notice{
+  height: 180px;
+  border: 1px solid red;
+  box-sizing: border-box;
+  //1导航
+  &>.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background:#f5f5f6;
+    &>a{
+      flex-grow: 1;
+      font-size: 12px;
+      color: #79797a;
+      text-align: center;
+    }
+    &>a:hover{
+      color: #00c1de;
+    }
+    .active{
+      color: #00c1de;
+      border-bottom: 2px solid #00c1de;
+    }
+  }
+
+}

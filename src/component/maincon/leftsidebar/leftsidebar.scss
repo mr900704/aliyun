@@ -1,0 +1,116 @@
+.leftsidebar{
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 100%;
+  background: #788898;
+  transition: 1s;
+  z-index:999;
+  .leftnav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 230px;
+    height: 100%;
+    background: #252a2f;
+    //云服务
+    .product-service{
+      display: flex;
+      justify-content: flex-start;
+      width: 230px;
+
+      height: 50px;
+      border-top: 1px solid #666 ;
+      border-bottom: 1px solid #666 ;
+      line-height: 50px;
+
+
+      .iconfont{
+        display: inline-block;
+        //width: 50px;
+        //height: 50px;
+        margin-left: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 16px;
+        color: #fff;
+        line-height: 50px;
+      }
+      .icon-chanpin{
+        width: 50px;
+        height: 50px;
+        margin: 0;
+      }
+      p{
+        margin-left: 15px;
+        font-size: 14px;
+        color: #fff;
+
+      }
+    }
+    .product-service:hover{
+      background: aqua;
+    }
+    //其他服务
+    .elsesever{
+      width: 270px;
+      height: 50px;
+      line-height: 50px;
+      a{
+        display: flex;
+        justify-content: flex-start;
+        height: 50px;
+        //background: pink;
+
+        .iconfont{
+          display: inline-block;
+          //width: 50px;
+          //height: 50px;
+          text-align: center;
+          line-height: 50px;
+          font-size: 16px;
+          color: #fff;
+          line-height: 50px;
+        }
+        .icon-data_all{
+          width: 50px;
+          height: 50px;
+          margin: 0;
+          color: #666;
+        }
+        .icon-del2{
+          margin-left: 20px;
+        }
+        .icon-gengduo1{
+          margin-left: 12px;
+          cursor: move;
+        }
+        p{
+          width: 100px;
+          margin-left: 15px;
+          font-size: 14px;
+          color: #fff;
+
+        }
+
+
+      }
+      a:hover{
+        background: #171a1d;
+        p{
+          color: #00c1de;
+        }
+        .icon-data_all{
+          color: #fff;
+        }
+      }
+    }
+
+
+  }
+}
+.leftsidebar:hover{
+  width: 230px;
+}

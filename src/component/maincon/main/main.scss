@@ -1,0 +1,49 @@
+.main{
+
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 50px);
+  height: 100%;
+  background: rgb(234, 237, 241);
+  padding: 20px;
+  box-sizing: border-box;
+  //左边
+  .mleft{
+    width: calc(100% - 340px);
+    border: 1px solid red;
+    box-sizing: border-box;
+
+  }
+  //右边
+  .mright{
+    width: 320px;
+    border: 1px solid red;
+    box-sizing: border-box;
+
+
+
+    //4情报
+    .safe-information{
+      height: 180px;
+      margin-top: 15px;
+      border: 1px solid red;
+      box-sizing: border-box;
+    }
+    //5定植咨询
+    .customized-product{
+      height: 45px;
+      margin-top: 15px;
+      border: 1px solid red;
+      box-sizing: border-box;
+    }
+    //6二维码
+    .qrcode{
+      height: 130px;
+      margin-top: 15px;
+      border: 1px solid red;
+      box-sizing: border-box;
+    }
+
+
+  }
+}

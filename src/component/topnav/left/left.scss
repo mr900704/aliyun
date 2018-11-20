@@ -1,0 +1,66 @@
+//左边
+.left{
+  display: flex;
+  //width: 30%;
+  height: 50px;
+  //background: red;
+
+  //1、管理控制台
+  .supervisor-console{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 150px;
+    background: #23ff42;
+
+    a{
+      height: 100%;
+      text-align: center;
+      line-height: 50px;
+      color: #fff;
+      //background: #ff0034;
+    }
+    .iconfont{
+      width: 50px;
+      height: 100%;
+      font-size: 20px;
+      background: #252a2f;
+
+    }
+    .control{
+      width: calc(100% - 50px);
+      height: 100%;
+      font-size:14px ;
+      color:#fff;
+      background: #252a2f;
+      font-weight: bolder;
+    }
+    .hoverbc{
+      background: #171a1d;
+    }
+
+
+
+  }
+  //2\全球
+  .global{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 85px;
+    background: #252a2f;
+    .iconfont{
+      margin-right: 5px;
+      font-size: 20px;
+      color: #fff;
+
+    }
+    span{
+      font-size: 14px;
+      color: #fff;
+      font-weight: bolder;
+    }
+
+  }
+}
