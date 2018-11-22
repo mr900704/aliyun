@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {NavLink,Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import './dropmenv1.scss';
 class Dropmenv extends Component {
     render() {

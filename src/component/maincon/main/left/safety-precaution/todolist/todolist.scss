@@ -1,0 +1,40 @@
+//待办事项
+.todolist{
+  width: 40%;
+  background: #ffffff;
+  padding: 0 15px 15px 15px;
+  box-shadow: #ffffff 0px 1px 2px 0px;
+  box-sizing: border-box;
+  .thing{
+    flex-direction: column;
+//具体的内容盒子
+    a{
+      flex-grow: 1;
+      height: 35px;
+      margin-bottom: 5px;
+      border: 1px solid #f5f5f6;
+      background: #f5f5f6;
+      line-height: 40px;
+      font-size: 12px;
+      text-indent: 40px;
+      color: #000;
+      box-sizing: border-box;
+      span{
+        float: right;
+        margin-right: 70px;
+        font-size: 20px;
+        color: #b8c1c5;
+      }
+    }
+    a:nth-last-of-type(1){
+      margin-bottom: 0;
+    }
+    a:hover{
+      border: 1px solid #59d2e7;
+      background: #fff;
+      box-sizing: border-box;
+    }
+  }
+
+
+}

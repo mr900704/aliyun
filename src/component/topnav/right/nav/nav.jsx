@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {NavLink ,Link} from "react-router-dom";
+import {NavLink } from "react-router-dom";
 import './nav.scss';
 import Dropmenv from "./dropmenv";
 class Nav extends Component {
@@ -12,7 +12,7 @@ class Nav extends Component {
     }
     //鼠标经过
     handlemouseenter=(e)=>{
-        if(e.target.tagName=="A"){
+        if(e.target.tagName==="A"){
             let ele= e.target.getElementsByClassName("menvbox")[0]
             if(ele){
                 ele.style.display="block"
@@ -22,7 +22,7 @@ class Nav extends Component {
     }
     //鼠标移除
     handlemouseleave=(e)=>{
-        if(e.target.tagName=="A"){
+        if(e.target.tagName==="A"){
             let ele= e.target.getElementsByClassName("menvbox")[0]
             if(ele){
                 ele.style.display="none"

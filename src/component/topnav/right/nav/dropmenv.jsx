@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './dropmenv.scss';
-import {NavLink} from "react-router-dom";
+// import {NavLink} from "react-router-dom";
 class Dropmenv extends Component {
     state={
         data2:[

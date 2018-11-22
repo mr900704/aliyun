@@ -1,0 +1,65 @@
+//4、我的关注
+.my-care{
+  height: 330px;
+  margin-bottom: 15px;
+  border: 1px solid red;
+  padding: 0 15px 15px 15px;
+  box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: #a8a8a8 0px 1px 2px 0px;
+
+  //1标题
+  .title{
+    div{
+      a{
+        color: #06c;
+      }
+      a:hover{
+        text-decoration: none;
+      }
+    }
+
+  }
+  //2内容
+  .thing{
+    flex-direction: column;
+    height: 270px !important;
+    border: 1px solid #e6e7e9;
+    //2.1场频信息
+    .product-msg{
+      width: 100%;
+      height: 230px;
+      background: #ffffff;
+    }
+    //2.2；立即购买
+    .now-buy{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 40px;
+      border: 1px solid #e6e7e9;
+
+      background: #f9fafc;
+      //按钮
+      a{
+        margin-left:250px ;
+        button{
+          width: 70px;
+          height: 25px;
+          background: #ffffff;
+          font-size: 12px;
+          color: #59d2e7;
+          border: 1px solid #59d2e7;
+
+        }
+        button:hover{
+          background: #59d2e7;
+          color: #fff;
+        }
+      }
+
+
+    }
+
+  }
+}

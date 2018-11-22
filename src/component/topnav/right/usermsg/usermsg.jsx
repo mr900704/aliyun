@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './usermsg.scss';
-import {NavLink,Link} from "react-router-dom";
+// import {NavLink,Link} from "react-router-dom";
 import Dropmenv from "./dropmenv";
 class Usermsg extends Component {
     constructor(){
@@ -22,7 +22,7 @@ class Usermsg extends Component {
             case 2:
                 this.setState({onoff2:true});
                 this.refs.dropmenv.style.display="block"
-                console.log(this.refs.dropmenv);
+                // console.log(this.refs.dropmenv);
                 break;
             case 3:
                 this.setState({onoff3:true});

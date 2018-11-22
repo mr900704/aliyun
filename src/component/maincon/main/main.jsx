@@ -1,9 +1,14 @@
 import React, {Component} from 'react';
 import '../../../publicstyle/clearinitstyle.scss';
 import './main.scss';
-import Notice from "./notice/notice";
-import Aassistant from "./administrative-assistant/administrative-assistant";
-import Pnformation from "./product-information/product-information";
+import Notice from "./right/notice/notice";
+import Aassistant from "./right/administrative-assistant/administrative-assistant";
+import Pnformation from "./right/product-information/product-information";
+import Cproduct from "./right/customized-product/customized-product";
+import Code from "./right/code/code";
+import SafetyPrecaution from "./left/safety-precaution/safety-precaution";
+import Lastuser from "./left/lastuser/lastuser";
+import Mycare from "./left/mycare/mycare";
 class Main extends Component {
     state={
         data:[
@@ -51,20 +56,25 @@ class Main extends Component {
             <div className="main">
                 {/*左边*/}
                 <div className="mleft">
-
+                    {/*1、安全预警*/}
+                    <SafetyPrecaution/>
+                    {/*2、最近使用*/}
+                    <Lastuser/>
+                    {/*3、我的资源*/}
+                    <div className="my-resources"></div>
+                    {/*4、我的关注*/}
+                    <Mycare/>
                 </div>
                 {/*右边*/}
                 <div className="mright">
                     {/*1公告*/}
-                    <Notice></Notice>
-
+                    <Notice/>
                     {/*2管理助手*/}
-                    <Aassistant></Aassistant>
+                    <Aassistant/>
                     {/*3新品快报*/}
                     {/*4安全情报*/}
-
                     {this.state.data.map((item,index)=>{
-                        console.log(index);
+                        // console.log(index);
                         return(
                                 <Pnformation
                                     key={index}
@@ -72,14 +82,10 @@ class Main extends Component {
                                 ></Pnformation>
                             )
                         })}
-
-
-
-                    {/*<div className="safe-information"></div>*/}
                     {/*5定植咨询*/}
-                    <div className="customized-product"></div>
+                    <Cproduct/>
                     {/*6二维码*/}
-                    <div className="qrcode"></div>
+                    <Code/>
                 </div>
 
             </div>

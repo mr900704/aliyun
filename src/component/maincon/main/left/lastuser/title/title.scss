@@ -1,0 +1,32 @@
+//1、标题区域
+.title{
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  div{
+    //操作日志
+    a{
+      height: 45px;
+      color: #59d2e7;
+      font-size: 12px;
+      line-height: 45px;
+    }
+    //事件图标
+    span{
+      display: inline-block;
+      width: 20px;
+      height: 40px;
+      text-align: center;
+      font-size: 16px;
+      color: #c9d0d4;
+      line-height: 40px;
+      font-weight: bolder;
+    }
+    //操作日志的鼠标移入
+    a:hover{
+      text-decoration: underline;
+
+    }
+  }
+
+}

@@ -1,0 +1,51 @@
+
+//1.2防护
+.fence{
+  width: 40%;
+  margin-left: 15px;
+  background: #ffffff;
+  //内容区域
+  .thing{
+    flex-direction: column;
+    justify-content: space-between;
+
+    //方内容的盒子
+    div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 55px;
+      padding: 15px;
+      background: #f5f5f6;
+      //box-sizing: padding-box;
+      border: 1px solid #f5f5f6;
+      box-sizing: border-box;
+      span{
+        font-size: 12px;
+      }
+      .num{
+        margin-left: 100px;
+        font-size: 20px;
+        color: #b8c1c5;
+      }
+      .buy{
+        margin-right: 85px;
+        color: #00c1de;
+      }
+
+    }
+    div:nth-of-type(1){
+      margin-bottom: 10px;
+    }
+    //方内容的盒子的鼠标移入
+    div:hover{
+      border: 1px solid #59d2e7;
+      background: #fff;
+      box-sizing: border-box;
+
+    }
+
+
+  }
+}

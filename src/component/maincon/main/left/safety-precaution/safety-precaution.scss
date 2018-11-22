@@ -1,0 +1,26 @@
+//1、安全预警
+.safety-precaution{
+  display: flex;
+  justify-content: space-between;
+  height: 180px;
+  margin-bottom: 15px;
+  //border: 1px solid red;
+  box-sizing: border-box;
+  //左边安全预警
+  .safe-left{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 0 15px 15px 15px;
+    background: #ffffff;
+    //border: 1px solid #a3a3a4;
+    margin-right: 20px;
+    box-sizing: border-box;
+    box-shadow: #a8a8a8 0px 1px 2px 0px;
+
+
+
+  }
+
+
+}
