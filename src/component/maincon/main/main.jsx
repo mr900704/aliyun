@@ -10,6 +10,7 @@ import SafetyPrecaution from "./left/safety-precaution/safety-precaution";
 import Lastuser from "./left/lastuser/lastuser";
 import Mycare from "./left/mycare/mycare";
 import DoublEleven from "./left/double-eleven/double-eleven";
+import MyResources from "./left/my-resources/my-resources";
 class Main extends Component {
     state={
         data:[
@@ -50,7 +51,10 @@ class Main extends Component {
                 ],
                 more:"更多"
             },
-        ]
+        ],
+        myresources:{
+            nav:["我的资源","我的消费","推荐返利"]
+        }
     }
     render() {
         return (
@@ -64,7 +68,9 @@ class Main extends Component {
                     {/*3\双十一*/}
                     <DoublEleven/>
                     {/*4、我的资源*/}
-                    <div className="my-resources"></div>
+                    <MyResources
+                        myresources={this.state.myresources}
+                    />
                     {/*5、我的关注*/}
                     <Mycare/>
                 </div>

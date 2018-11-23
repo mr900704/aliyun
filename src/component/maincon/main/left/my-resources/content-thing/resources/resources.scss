@@ -1,0 +1,24 @@
+//我的资源
+.resources{
+  height: 320px;
+  //background: #23ff42;
+  //底部
+  .more{
+    height: 45px;
+    border-top: 1px solid #cbcbcb;
+    background: #ffffff;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+    color: #00c1de;
+    line-height: 45px;
+    span{
+      font-size: 12px;
+    }
+
+  }
+  .more:hover{
+    text-decoration: underline;
+  }
+
+}

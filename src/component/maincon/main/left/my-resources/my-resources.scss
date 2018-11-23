@@ -1,0 +1,42 @@
+
+//4、我的资源
+.my-resources{
+  height: auto;
+  margin-bottom: 15px;
+  //border: 1px solid red;
+  box-sizing: border-box;
+  box-shadow: #a8a8a8 0px 1px 2px 0px;
+
+  //1、导航标题部分
+  .title{
+    display: flex;
+    justify-content: flex-start;
+    height: 45px;
+    background: #f5f5f6;
+    //每一个导航
+    .s-nav{
+      position: relative;
+      width: 80px;
+      margin-right: 5px;
+      font-size: 14px;
+      line-height: 45px;
+      text-align: center;
+      color: #6d6d6d;
+      .line{
+        position: absolute;
+        bottom: 0;
+        left: 2px;
+        width: 76px;
+        height: 2px;
+        background: #00c1de;
+      }
+    }
+    .s-nav:hover{
+      color: #00c1de;
+    }
+
+
+
+  }
+
+}
