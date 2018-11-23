@@ -9,6 +9,7 @@ import Code from "./right/code/code";
 import SafetyPrecaution from "./left/safety-precaution/safety-precaution";
 import Lastuser from "./left/lastuser/lastuser";
 import Mycare from "./left/mycare/mycare";
+import DoublEleven from "./left/double-eleven/double-eleven";
 class Main extends Component {
     state={
         data:[
@@ -60,9 +61,11 @@ class Main extends Component {
                     <SafetyPrecaution/>
                     {/*2、最近使用*/}
                     <Lastuser/>
-                    {/*3、我的资源*/}
+                    {/*3\双十一*/}
+                    <DoublEleven/>
+                    {/*4、我的资源*/}
                     <div className="my-resources"></div>
-                    {/*4、我的关注*/}
+                    {/*5、我的关注*/}
                     <Mycare/>
                 </div>
                 {/*右边*/}

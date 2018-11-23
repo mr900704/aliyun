@@ -1,0 +1,40 @@
+//3\双十一
+.double-eleven{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin-bottom: 15px;
+  background: #00c1de;
+  box-shadow: #a8a8a8 0px 1px 2px 0px;
+  h2{
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+  }
+  .record{
+    margin: 15px 0;
+    font-size: 14px;
+    color: #fff;
+  }
+  a{
+    width: 115px;
+    height: 35px;
+    border: 1px solid #fff;
+    background: #00c1de;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+
+  }
+  a:hover{
+     background: #fff;
+      color: #00c1de;
+
+  }
+
+
+}
